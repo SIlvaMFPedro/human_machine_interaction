@@ -1,0 +1,34 @@
+﻿<Window x:Class="ChatBubbles.CartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatBubbles"
+        mc:Ignorable="d"
+        Title="CartWindow" Height="350" Width="750">
+    <Grid>
+        <Label Content="Shopping Cart" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="17,10,0,0" FontSize="20"/>
+        <ListView x:Name="CartBox" Margin="10,64,251,29.8">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Image" Width="130">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Image}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Game" Width="230" DisplayMemberBinding="{Binding Title}"/>
+                    <GridViewColumn Header="Price" Width="120" DisplayMemberBinding="{Binding Price}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Buy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="526,166,0,0" Click="BuyGame_Click"/>
+        <Button Content="Add funds" HorizontalAlignment="Left" Margin="645,166,0,0" VerticalAlignment="Top" Width="75" Click="AddFunds_Click"/>
+        <Label Content="Current value: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="526,10,0,0" FontSize="15"/>
+        <Label Content="Current salary: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="526,64,0,0" FontSize="15"/>
+        <TextBlock x:Name="valueTxtBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="value$" VerticalAlignment="Top" Margin="645,18,0,0" FontSize="12"/>
+        <TextBlock x:Name="moneyTxtBox" HorizontalAlignment="Left" Margin="645,72,0,0" TextWrapping="Wrap" Text="money$" VerticalAlignment="Top" FontSize="12"/>
+
+    </Grid>
+</Window>

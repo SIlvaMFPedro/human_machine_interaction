@@ -1,0 +1,24 @@
+﻿<Window x:Class="ChatBubbles.EditProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatBubbles"
+        mc:Ignorable="d"
+        Title="EditProfile" Height="250" Width="500">
+    <Grid>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" Width="120" Margin="106,10,0,0"/>
+        <TextBox x:Name="txtRealName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="RealName" VerticalAlignment="Top" Width="120" Margin="106,43,0,0"/>
+        <TextBox x:Name="txtCountry" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Country" VerticalAlignment="Top" Width="120" Margin="106,79,0,0"/>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="City" VerticalAlignment="Top" Width="120" Margin="354,10,0,0"/>
+        <TextBox x:Name="txtDistrict" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="District" VerticalAlignment="Top" Width="120" Margin="106,119,0,0"/>
+        <TextBox x:Name="txtAccountInfo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Account Info" VerticalAlignment="Top" Width="120" Margin="354,84,0,0"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="120" Margin="354,46,0,0"/>
+        <CheckBox x:Name ="PaySafeCardCheckBox" Content="PaySafeCard" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="106,155,0,0"/>
+        <CheckBox x:Name ="PaypalCheckBox" Content="PayPal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="106,175,0,0"/>
+        <CheckBox x:Name ="MasterCardCheckBox" Content="MasterCard" HorizontalAlignment="Left" Margin="106,195,0,0" VerticalAlignment="Top"/>
+        <Button Content="Apply" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="331,160,0,0" Click="ApplyChanges"/>
+        <Label Content="PayMethod" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,169,0,0" RenderTransformOrigin="0.373,0.531"/>
+
+    </Grid>
+</Window>

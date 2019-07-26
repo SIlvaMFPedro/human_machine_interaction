@@ -1,0 +1,7 @@
+D:\Projecto_IHC\GameMasters-master\GameMasters\GameMasters\obj\Debug\GameMasters.csprojResolveAssemblyReference.cache
+D:\Projecto_IHC\GameMasters-master\GameMasters\GameMasters\obj\Debug\ChatBubblesWindow.g.cs
+D:\Projecto_IHC\GameMasters-master\GameMasters\GameMasters\obj\Debug\ConversationView.g.cs
+D:\Projecto_IHC\GameMasters-master\GameMasters\GameMasters\obj\Debug\App.g.cs
+D:\Projecto_IHC\GameMasters-master\GameMasters\GameMasters\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projecto_IHC\GameMasters-master\GameMasters\GameMasters\obj\Debug\GameMasters_MarkupCompile.cache
+D:\Projecto_IHC\GameMasters-master\GameMasters\GameMasters\obj\Debug\GameMasters_MarkupCompile.lref

@@ -1,0 +1,36 @@
+﻿<Window x:Class="ChatBubbles.GameMasters_Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatBubbles"
+        mc:Ignorable="d"
+        Title="Login" Height="211.589" Width="332.724" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="50,116,49.4,5.6" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="43*"/>
+            </Grid.RowDefinitions>
+            <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="30,0,0,0" Height="24" RenderTransformOrigin="1.144,0.604" Click="Login_Click" Grid.RowSpan="2"/>
+            <Button Content="Register" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="31,14.2,0,0" Height="24" RenderTransformOrigin="1.144,0.604" Click="Register_Click" Grid.Row="1"/>
+        </Grid>
+        <Grid Margin="50,20,50.4,51.6" Grid.RowSpan="2">
+            <TextBox x:Name="usernameBox" TextWrapping="Wrap" Text="Username" Margin="32,9,-32.4,75" Height="25"/>
+            <PasswordBox x:Name="passwordBox" RenderTransformOrigin="0.286,1.232" ToolTip="Password" Margin="32,48,-32.4,35" Height="25"/>
+
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Account" VerticalAlignment="Bottom" Margin="14,0,0,80.4"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Margin="14,72,0,0"/>
+        <CheckBox x:Name="PaswdCheckBox" Content="Remember password&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="81,95,0,0" Height="23"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="224,116,0,0" Height="24" RenderTransformOrigin="1.144,0.604" Click="Cancel_Click" Grid.RowSpan="2"/>
+        <Button Content="Help" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="224,17.6,0,0" Height="25" Click="Help_Click" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="100" Margin="0,2,0,0" Source="/Pictures/gamemasters.png"/>
+        <Image HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="21" Margin="284,8,0,0" Source="/Pictures/if___Right_1904671.png"  />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Margin="250,8,0,0"/>
+    </Grid>
+</Window>

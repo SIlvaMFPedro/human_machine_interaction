@@ -1,0 +1,217 @@
+﻿<Window x:Class="ChatBubbles.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatBubbles"
+        mc:Ignorable="d"
+        Title="MainView" Height="450" Width="800">
+    <Window.Resources>
+        <XmlDataProvider x:Key="DataRSS" XPath="//item" Source="https://store.steampowered.com/feeds/news.xml"></XmlDataProvider>
+    </Window.Resources>
+    <Grid>
+        <TabControl x:Name="tabControl">
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal" Background="#FFE5E5E5">
+                        <Image Name="img" Height="auto" Width="auto" Source="Pictures/select.png" Stretch="UniformToFill" />
+                        <TextBlock Text="" Margin="2,0,0,0" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid Background="#FFE5E5E5">
+                    <ScrollViewer Name="ConsoleScroller" Margin="61,39,61,122.4" VerticalAlignment="Center" Height="225" Background="Black">
+                        <TextBlock x:Name="Consoletxtblock" Text="Starting console..." Foreground="White" FontFamily="Consolas"/>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Store">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="27*"/>
+                        <ColumnDefinition Width="47*"/>
+                        <ColumnDefinition Width="320*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="label" Content="Search Results :" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="163" FontSize="15" Height="26" Grid.ColumnSpan="3"/>
+                    <TextBox Margin="10,10,524,353.2" x:Name="searchgameFilter" TextChanged="SearchGameFilter_TextChanged" Grid.ColumnSpan="3"/>
+                    <ListView x:Name="SearchBox" Grid.ColumnSpan="3" Margin="10,64,294,31.2">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Image" Width="130">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Image Source="{Binding Image}"></Image>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Game" Width="230" DisplayMemberBinding="{Binding Title}"/>
+                                <GridViewColumn Header="Price" Width="120" DisplayMemberBinding="{Binding Price}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Button Content="Add To Cart" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="2" Margin="457,114,0,0" Click="AddToCart_Click"/>
+                    <Button Content="View Details" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="2" Margin="457,191,0,0" Click="ViewDetails_Click"/>
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="News">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="164*"/>
+                        <ColumnDefinition Width="65*"/>
+                        <ColumnDefinition Width="178*"/>
+                        <ColumnDefinition Width="381*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Click here to check on the latest news" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38.2,112,0,0" Grid.Column="2" Grid.ColumnSpan="2"/>
+                    <Button Content="News" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="2" Margin="96.2,165,0,0" Click="GotoNews_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="My Games">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="94*"/>
+                        <RowDefinition Height="99*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="57*"/>
+                        <ColumnDefinition Width="107*"/>
+                        <ColumnDefinition Width="102*"/>
+                        <ColumnDefinition Width="522*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Margin="17,35,219,0" Height="175" VerticalAlignment="Top" Grid.ColumnSpan="4" Grid.RowSpan="2">
+                        <ListView x:Name="MyGamesBox" Margin="0,1" HorizontalAlignment="Left" Width="504">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Image" Width="200">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Image Source="{Binding Image}"></Image>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                    <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding Name}"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+
+                    <Label x:Name="MyGames" Content="My Games :" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="163" FontSize="15" Height="30" Grid.ColumnSpan="3"/>
+                    <Grid x:Name="FreeGamesGrid" Margin="10,50,10,0.4" Grid.ColumnSpan="4" Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="25*"/>
+                            <ColumnDefinition Width="71*"/>
+                        </Grid.ColumnDefinitions>
+                        <ListView x:Name="FreeGamesBox" Margin="6,0,251,0" Grid.ColumnSpan="2">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Image" Width="200">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Image Source="{Binding Image}"></Image>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                    <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding Name}"/>
+
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                    <Label x:Name="FreeGames" Content="Free Games :" HorizontalAlignment="Left" Margin="10,22,0,0" VerticalAlignment="Top" Width="163" FontSize="15" Height="30" Grid.ColumnSpan="3" Grid.Row="1"/>
+                    <TextBox Margin="40.2,12,262,155" x:Name="searchMyGamesFilter" TextChanged="SearchMyGamesFilter_TextChanged" Grid.ColumnSpan="3" Grid.Column="1"/>
+                    <Button Content="Install Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="3" Margin="348.6,23,0,0" Click="InstallGame_Click" Grid.Row="1"/>
+                    <TextBox Margin="46.2,29,262,148.4" x:Name="searchFreeGamesFilter" TextChanged="SearchFreeGamesFilter_TextChanged" Grid.ColumnSpan="3" Grid.Column="1" Grid.Row="1"/>
+
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Community">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="55*"/>
+                        <ColumnDefinition Width="45*"/>
+                        <ColumnDefinition Width="189*"/>
+                        <ColumnDefinition Width="499*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid x:Name="UserGrid" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Height="261" Width="273" Grid.ColumnSpan="3">
+                        <DockPanel Margin="10">
+                            <TextBox DockPanel.Dock="Top" Margin="0,0,-0.2,10" Name="userFilter" TextChanged="UserFilter_TextChanged"/>
+                            <ListView Name="UserView">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Name" Width="60" DisplayMemberBinding="{Binding Name}"/>
+                                        <GridViewColumn Header="NickName" Width="130" DisplayMemberBinding="{Binding NickName}"/>
+                                        <GridViewColumn Header="Level" Width="60" DisplayMemberBinding="{Binding Level}"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </DockPanel>
+                    </Grid>
+
+                    <Button x:Name="addUserButton" Content="Add User" HorizontalAlignment="Left" Margin="24.2,186,0,0" VerticalAlignment="Top" Width="109" Height="29" Grid.Column="3" Click="AddUser_Click"/>
+                    <Label Content="Users" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,4,0,0" RenderTransformOrigin="1.089,0.469"/>
+                    <Label Content="Community" Grid.Column="3" HorizontalAlignment="Left" Margin="187.2,4,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="nameCom" Text="Name" Foreground="Gray" HorizontalAlignment="Left" Height="19" TextWrapping="Wrap" VerticalAlignment="Top" Width="78" Grid.Column="3" Margin="181.2,350,0,0" RenderTransformOrigin="1.903,4.574" TextChanged="NameCom_TextChanged" GotFocus="NameCom_GotFocus"/>
+                    <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="135,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <Label Content="Create Community" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="67.2,344,0,0" Grid.Column="3"/>
+                    <TextBox x:Name="numberofusers" Text="Number of users" Foreground="Gray" HorizontalAlignment="Left" Height="19" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="268.2,351,0,0" Grid.Column="3" TextChanged="Numberofusers_TextChanged" GotFocus="Numberofusers_GotFocus"/>
+                    <Button x:Name="createComButton" Content="Create" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="3" Margin="402.2,351,0,0" Click="CreateCom_Click"/>
+                    <TextBox Margin="179.2,42,42,320.4" x:Name="comFilter" TextChanged="ComFilter_TextChanged" Grid.Column="3"/>
+                    <TreeView x:Name="ComTree_View" HorizontalAlignment="Left" Margin="179.2,69,0,0" VerticalAlignment="Top" Height="261" Width="273" Grid.Column="3" Loaded="TreeView_Loaded" SelectedItemChanged="TreeView_SelectedItemChanged"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Profile">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="182*"/>
+                        <ColumnDefinition Width="15*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="PersonProfilePic" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="28,20,0,0" Source="/Pictures/PersonProfile.png"/>
+                    <ListBox x:Name="ProfileLB" HorizontalAlignment="Left" Height="268" VerticalAlignment="Top" Width="383" Margin="150,20,0,0" Background="#FFE5E5E5">
+                        <ListBoxItem>Username</ListBoxItem>
+                        <ListBoxItem>Real name</ListBoxItem>
+                        <ListBoxItem>Country</ListBoxItem>
+                        <ListBoxItem>District</ListBoxItem>
+                        <ListBoxItem>City</ListBoxItem>
+                        <ListBoxItem>Address</ListBoxItem>
+                        <ListBoxItem>Pay method</ListBoxItem>
+                        <ListBoxItem>Account info</ListBoxItem>
+                    </ListBox>
+                    <Button Content="Edit" HorizontalAlignment="Left" Margin="605,76,0,0" VerticalAlignment="Top" Width="75" Click="GotoEditProfile_Click"/>
+                    <Button Content="LogOut" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="605,180,0,0" Click="LogOut_Click"/>
+                    <Button Content="Change picture" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Margin="22,143,0,0" Click="ChangePic_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <TextBlock Name="nickName" VerticalAlignment="Center" TextWrapping="Wrap" Margin="625,0,75,390" Background="White" RenderTransformOrigin="0.873,0.41"></TextBlock>
+        <Button  x:Name="cartbutton" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" RenderTransformOrigin="1.659,3.052" Margin="490,4,0,0" Height="22" Click="GotoCart_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pictures/cart.png"/>
+            </Button.Background>
+        </Button>
+        <Button  x:Name="chatbutton" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" RenderTransformOrigin="1.659,3.052" Margin="516,4,0,0" Height="22" Click="GotoChat_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pictures/chat.png"/>
+            </Button.Background>
+        </Button>
+        <Button  x:Name="friendbutton" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" RenderTransformOrigin="1.659,3.052" Margin="544,4,0,0" Height="22" Click="GotoFriends_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pictures/friends.png"/>
+            </Button.Background>
+        </Button>
+        <Button  x:Name="moneybutton" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" RenderTransformOrigin="1.659,3.052" Margin="572,4,0,0" Height="22" Click="GotoMoney_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pictures/money.png"/>
+            </Button.Background>
+        </Button>
+        <Button  x:Name="profilebutton" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" RenderTransformOrigin="1.659,3.052" Margin="600,4,0,0" Height="22" Click="GotoProfile_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pictures/profile.png"/>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="MoneyTextBox" Margin="719,4,35.6,397" Background="White" RenderTransformOrigin="0.873,0.41" Text="money$" FontSize="9"/>
+        <TextBlock x:Name="LevelTextBox" Margin="759,4,1.6,397" Background="White" RenderTransformOrigin="0.873,0.41" Text="level x" FontSize="9"/>
+    </Grid>
+</Window>

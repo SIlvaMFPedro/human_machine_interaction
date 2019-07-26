@@ -1,0 +1,209 @@
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.exe.config
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.exe
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.pdb
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.csprojResolveAssemblyReference.cache
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ConversationView.g.cs
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\MainWindow.g.cs
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\App.g.cs
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles_MarkupCompile.cache
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles_MarkupCompile.lref
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ConversationView.baml
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\MainWindow.baml
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.g.resources
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.Properties.Resources.resources
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.csproj.GenerateResource.Cache
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.exe
+C:\Users\Skraaijv\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.pdb
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.exe.config
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.exe
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.pdb
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ConversationView.g.cs
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\MainWindow.g.cs
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\App.g.cs
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles_MarkupCompile.cache
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles_MarkupCompile.lref
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ConversationView.baml
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\MainWindow.baml
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.g.resources
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.Properties.Resources.resources
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.csproj.GenerateResource.Cache
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.exe
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.pdb
+C:\Users\Sam\Documents\Copy\Scriptie\Various\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.exe.config
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.exe
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.pdb
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ConversationView.g.cs
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\MainWindow.g.cs
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\App.g.cs
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles_MarkupCompile.cache
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles_MarkupCompile.lref
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\MainWindow.baml
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.exe
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\bin\Debug\ChatBubbles.pdb
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ConversationView.baml
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.g.resources
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.Properties.Resources.resources
+C:\Users\Sam\Documents\Visual Studio 2013\Projects\ChatBubbles\ChatBubbles\obj\Debug\ChatBubbles.csproj.GenerateResource.Cache
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ConversationView.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubblesWindow.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\App.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles_MarkupCompile.cache
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles_MarkupCompile.lref
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles.exe
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles.pdb
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\bin\Debug\ChatBubbles.exe.config
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\bin\Debug\ChatBubbles.exe
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\bin\Debug\ChatBubbles.pdb
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ConversationView.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubblesWindow.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles.g.resources
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles.Properties.Resources.resources
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles.csproj.GenerateResource.cache
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles.csproj.CoreCompileInputs.cache
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\AddFriendsWindow.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\CartWindow.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatWindow.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\EditProfile.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\FriendsWindow.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\GameMasters_Login.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\MainView.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\NewsWindow.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ProfileWindow.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\Register.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\MoneyWindow.g.cs
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\AddFriendsWindow.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\CartWindow.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatWindow.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\EditProfile.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\FriendsWindow.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\GameMasters_Login.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\MainView.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\NewsWindow.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ProfileWindow.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\Register.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\MoneyWindow.baml
+D:\Projecto_IHC\ChatBubbles-master\ChatBubbles\obj\Debug\ChatBubbles.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\bin\Debug\ChatBubbles.exe.config
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubbles.exe
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubbles.pdb
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\bin\Debug\ChatBubbles.exe
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\bin\Debug\ChatBubbles.pdb
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubbles.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\AddFriendsWindow.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\CartWindow.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatWindow.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ConversationView.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubblesWindow.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\EditProfile.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\FriendsWindow.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\GameMasters_Login.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\MainView.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\MoneyWindow.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\NewsWindow.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ProfileWindow.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\Register.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\App.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubbles_MarkupCompile.cache
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubbles_MarkupCompile.lref
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\AddFriendsWindow.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\CartWindow.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatWindow.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ConversationView.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubblesWindow.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\EditProfile.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\FriendsWindow.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\GameMasters_Login.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\MainView.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\MoneyWindow.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\NewsWindow.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ProfileWindow.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\Register.baml
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubbles.g.resources
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubbles.Properties.Resources.resources
+C:\Users\Ricardo Pombeiro\Desktop\Universidade\IHC\Projeto\obj\Debug\ChatBubbles.csproj.GenerateResource.Cache
+C:\Users\silva\Desktop\Projeto\bin\Debug\ChatBubbles.exe.config
+C:\Users\silva\Desktop\Projeto\bin\Debug\ChatBubbles.exe
+C:\Users\silva\Desktop\Projeto\bin\Debug\ChatBubbles.pdb
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles.csprojResolveAssemblyReference.cache
+C:\Users\silva\Desktop\Projeto\obj\Debug\AddFriendsWindow.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\CartWindow.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatWindow.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\ConversationView.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubblesWindow.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\EditProfile.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\FriendsWindow.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\GameMasters_Login.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\MainView.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\MoneyWindow.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\NewsWindow.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\ProfileWindow.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\Register.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\App.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles_MarkupCompile.cache
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles_MarkupCompile.lref
+C:\Users\silva\Desktop\Projeto\obj\Debug\AddFriendsWindow.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\CartWindow.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatWindow.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\ConversationView.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubblesWindow.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\EditProfile.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\FriendsWindow.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\GameMasters_Login.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\MainView.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\MoneyWindow.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\NewsWindow.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\ProfileWindow.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\Register.baml
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles.g.resources
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles.Properties.Resources.resources
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles.csproj.GenerateResource.cache
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles.csproj.CoreCompileInputs.cache
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles.exe
+C:\Users\silva\Desktop\Projeto\obj\Debug\ChatBubbles.pdb
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\bin\Debug\ChatBubbles.exe.config
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\bin\Debug\ChatBubbles.exe
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\bin\Debug\ChatBubbles.pdb
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles.csprojResolveAssemblyReference.cache
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\AddFriendsWindow.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\CartWindow.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatWindow.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ConversationView.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubblesWindow.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\EditProfile.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\FriendsWindow.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\GameMasters_Login.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\MainView.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\MoneyWindow.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\NewsWindow.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ProfileWindow.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\Register.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\App.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles_MarkupCompile.cache
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles_MarkupCompile.lref
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\AddFriendsWindow.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\CartWindow.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatWindow.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ConversationView.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubblesWindow.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\EditProfile.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\FriendsWindow.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\GameMasters_Login.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\MainView.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\MoneyWindow.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\NewsWindow.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ProfileWindow.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\Register.baml
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles.g.resources
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles.Properties.Resources.resources
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles.csproj.GenerateResource.cache
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles.csproj.CoreCompileInputs.cache
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles.exe
+C:\Users\silva\Desktop\Projeto_IHC\Projeto\obj\Debug\ChatBubbles.pdb

@@ -1,0 +1,36 @@
+﻿<Window x:Class="ChatBubbles.FriendsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatBubbles"
+        mc:Ignorable="d"
+        Title="FriendsWindow" Height="225" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="158*"/>
+            <ColumnDefinition Width="39*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="28" Margin="255,5,0,0" Source="/Pictures/profile.png"/>
+        <TextBlock x:Name="NickNameTxtBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="NickName" Margin="286,4,0,166.2" Grid.ColumnSpan="2" Width="89"/>
+        <TextBlock x:Name="StatusTxtBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Status" Margin="287,26,0,144.2" FontSize="10" Grid.ColumnSpan="2" Width="52"/>
+        <Button  x:Name="addfriendbutton" HorizontalAlignment="Left" VerticalAlignment="Top" Width="21" RenderTransformOrigin="1.659,3.052" Margin="10,13,0,0" Height="22" Click="AddFriendToList_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pictures/addfriend.png"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="SearchFriendTextBox" HorizontalAlignment="Left" Height="19" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="36,17,0,0"/>
+        <Button Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="170,17,0,0" Click="SearchFriend"/>
+        <TreeView x:Name="FriendsTree_View" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="209" Margin="36,53,0,0">
+            <TreeViewItem Header="Online">
+                <TreeViewItem Header="User1"></TreeViewItem>
+                <TreeViewItem Header="User2"></TreeViewItem>
+                <TreeViewItem Header="User3"></TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Offline">
+                <TreeViewItem Header="User4"></TreeViewItem>
+                <TreeViewItem Header="User5"></TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Window>
